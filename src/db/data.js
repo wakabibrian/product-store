@@ -1,0 +1,68 @@
+const data = [
+  {
+    id: 1,
+    name: "Wireless Headphones",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    description: "High quality sound with noise cancellation.",
+    price: 59.99,
+    category: "Electronics",
+  },
+  {
+    id: 2,
+    name: "Smart Watch",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+    description: "Track your fitness and stay connected.",
+    price: 89.99,
+    category: "Electronics",
+  },
+  {
+    id: 3,
+    name: "Running Shoes",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    description: "Comfortable and stylish running shoes.",
+    price: 49.99,
+    category: "Sports",
+  },
+  {
+    id: 4,
+    name: "Backpack",
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    description: "Spacious and durable backpack for everyday use.",
+    price: 29.99,
+    category: "Fashion",
+  },
+  {
+    id: 5,
+    name: "Cotton T-Shirt",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    description: "Soft and comfortable cotton t-shirt.",
+    price: 14.99,
+    category: "Fashion",
+  },
+  {
+    id: 6,
+    name: "Indoor Plant",
+    image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411",
+    description: "Bring greenery to your home and office.",
+    price: 19.99,
+    category: "Home",
+  },
+  {
+    id: 7,
+    name: "The Power of Habit",
+    image: "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+    description: "Build good habits and break bad ones.",
+    price: 11.99,
+    category: "Books",
+  },
+  {
+    id: 8,
+    name: "Water Bottle",
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8",
+    description: "Stay hydrated with this durable bottle.",
+    price: 15.99,
+    category: "Sports",
+  },
+];
+
+export default data;

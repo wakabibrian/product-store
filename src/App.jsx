@@ -1,5 +1,7 @@
+import Products from "./pages/Products/Products";
+
 function App() {
-  return <></>;
+  return <Products />;
 }
 
 export default App;
