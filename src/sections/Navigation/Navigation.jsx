@@ -2,29 +2,33 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <nav>
-      <div className="navigation-container">
-        <div className="logo-wrapper">
-          <img
-            src="./assets/ShopNest-Logo.png"
-            alt="ShopNest Logo"
-            className="logo"
-          />
-        </div>
+    <div className="header">
+      <img
+        src="./assets/ShopNest-Logo.png"
+        alt="ShopNest Logo"
+        className="logo"
+      />
 
-        <ul className="nav-links-wrapper">
-          <li className="nav-link-item active">
-            <a>Products</a>
+      <nav className="main-nav">
+        <ul className="main-nav-list">
+          <li>
+            <a className="main-nav-link active" href="#">
+              Products
+            </a>
           </li>
-          <li className="nav-link-item">
-            <a>Login</a>
+          <li>
+            <a className="main-nav-link" href="#">
+              Login
+            </a>
           </li>
-          <li className="nav-link-item">
-            <a>Signup</a>
+          <li>
+            <a className="main-nav-link" href="#">
+              Signup
+            </a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
 

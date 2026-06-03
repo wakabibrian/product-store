@@ -1,0 +1,47 @@
+.section-products {
+  padding: 9.6rem 0;
+}
+
+.products-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.products-section-header {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.shopping-con {
+  font-size: 3.6rem;
+  padding: 1.6rem;
+  color: #5e35b1;
+  background-color: #f0e9fb;
+  border-radius: 15px;
+}
+
+.products-section-title h2 {
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+
+.products-section-title p {
+  font-size: 1.8rem;
+}
+
+.filter-buttons {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.products-list-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+}
