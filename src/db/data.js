@@ -93,7 +93,7 @@ const data = [
     id: 11,
     title: "Mountain Bike",
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=70",
+      "https://plus.unsplash.com/premium_photo-1677838847763-0810bff8f40e?auto=format&fit=crop&w=600&q=70",
     description: "Built for adventure on and off the trail.",
     price: 950000,
     category: "Sports",
