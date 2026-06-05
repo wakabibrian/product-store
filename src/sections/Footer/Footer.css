@@ -1,0 +1,26 @@
+.section-footer {
+  padding: 3.2rem 0;
+  background-color: #130b23;
+  color: #ccc;
+}
+
+.footer-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-name:link,
+.copyright-name:visited {
+  text-decoration: none;
+  color: #bfaee0;
+  transition: 0.4s all;
+}
+
+.copyright-name:hover,
+.copyright-name:active {
+  text-decoration: underline;
+}

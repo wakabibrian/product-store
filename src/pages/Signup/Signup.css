@@ -1,0 +1,140 @@
+.section-signup {
+  background: url(assets/header-background.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -9.6rem;
+  height: 100vh;
+}
+
+.signup-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  height: 87.5vh;
+  padding: 9.6rem 0 3.2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+}
+
+.signup-header-text {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.2rem;
+}
+
+.signup-description-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.signup-img {
+  height: 30rem;
+}
+
+.signup-input-section {
+  height: 82vh;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(94, 53, 177, 0.1);
+  border-radius: 11px;
+  padding: 6.4rem;
+}
+
+form * {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #555;
+  outline: none;
+  border: none;
+}
+
+form h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.signup-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.2rem;
+}
+
+label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.signup-input {
+  display: block;
+  width: 100%;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.6rem 1.2rem;
+  font-size: 14px;
+  margin-bottom: 3.2rem;
+}
+
+::placeholder {
+  color: #a3a3a3;
+}
+
+form button {
+  width: 100%;
+  background-color: #5e35b1;
+  color: #fff;
+  padding: 1.6rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #6e49b9;
+}
+
+form p {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+}
+
+.message {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.message.show {
+  opacity: 1;
+}
+
+.unsuccess-class {
+  color: #ff512f;
+}
+
+.success-class {
+  color: #16a34a;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #5e35b1;
+  transition: all 0.3s ease-in;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.login-link span {
+  font-weight: 600;
+  color: #5e35b1;
+}

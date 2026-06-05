@@ -11,9 +11,9 @@ import { GiWeightLiftingUp } from "react-icons/gi";
 import FilterButton from "../../components/FilterButton/FilterButton";
 import "./ProductsSection.css";
 
-function ProductsSection({ handleClick, result }) {
+function ProductsSection({ handleClick, result, selectedCategory }) {
   return (
-    <section className="section-products">
+    <section id="products-section" className="section-products">
       <div className="products-container">
         {/* ==============Section Title=========== */}
         <div className="products-section-header">
@@ -32,43 +32,49 @@ function ProductsSection({ handleClick, result }) {
             value=""
             title="All"
             icon={<HiOutlineSquares2X2 />}
-            active="active"
+            active={!selectedCategory ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="electronics"
             title="Electronics"
             icon={<HiOutlineComputerDesktop />}
+            active={selectedCategory === "electronics" ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="fashion"
             title="Fashion"
             icon={<IoShirtOutline />}
+            active={selectedCategory === "fashion" ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="shoes"
             title="Shoes"
             icon={<PiSneaker />}
+            active={selectedCategory === "shoes" ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="home"
             title="Home"
             icon={<IoHomeOutline />}
+            active={selectedCategory === "home" ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="accessories"
             title="Accessories"
             icon={<IoPricetagsOutline />}
+            active={selectedCategory === "accessories" ? "active" : ""}
           />
           <FilterButton
             handleClick={handleClick}
             value="sports"
             title="Sports"
             icon={<GiWeightLiftingUp />}
+            active={selectedCategory === "sports" ? "active" : ""}
           />
         </div>
         {/* ==============Filtered Product List Component=========== */}

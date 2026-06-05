@@ -28,10 +28,10 @@ const data = [
   },
   {
     id: 4,
-    title: "Chelsea Leather Boots",
+    title: "Puma White Sneakers",
     image:
-      "https://images.unsplash.com/photo-1608256246200-53e8b47b2f80?auto=format&fit=crop&w=600&q=70",
-    description: "Premium boots for a smart-casual look.",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=70",
+    description: "Premium sneakers best for fashion",
     price: 420000,
     category: "Shoes",
   },
@@ -39,7 +39,7 @@ const data = [
     id: 5,
     title: "Minimalist Desk Setup",
     image:
-      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=600&q=70",
+      "https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?auto=format&fit=crop&w=600&q=70",
     description: "Modern workspace essentials for productivity.",
     price: 650000,
     category: "Home",

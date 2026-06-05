@@ -10,7 +10,7 @@ function Hero() {
             Explore trending products, premium collections, and everyday
             essentials, all in one place.
           </p>
-          <a href="#" className="hero-btn">
+          <a href="#products-section" className="hero-btn">
             Shop Now &darr;
           </a>
         </div>

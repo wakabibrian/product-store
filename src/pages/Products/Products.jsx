@@ -1,15 +1,27 @@
-import { useState } from "react";
-// import Footer from "../../sections/Footer/Footer";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Hero from "../../sections/Hero/Hero";
 import Navigation from "../../sections/Navigation/Navigation";
 import ProductsSection from "../../sections/ProductsSection/ProductsSection";
 import "./Products.css";
 import products from "../../db/data.js";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import Footer from "../../sections/Footer/Footer.jsx";
+import { getActiveUser } from "../../utils/LocalStorage.js";
 
 function Products() {
   // Initial value for category
   let [selectedCategory, setSelectedCategory] = useState(null);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const activeUser = getActiveUser();
+
+    if (!activeUser) {
+      navigate("/signup");
+    }
+  }, [navigate]);
 
   // Change category on click
   let handleClick = (event) => {
@@ -52,9 +64,13 @@ function Products() {
       </header>
       <main>
         <Hero />
-        <ProductsSection handleClick={handleClick} result={result} />
+        <ProductsSection
+          handleClick={handleClick}
+          result={result}
+          selectedCategory={selectedCategory}
+        />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
