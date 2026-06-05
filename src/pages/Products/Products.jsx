@@ -19,7 +19,7 @@ function Products() {
     const activeUser = getActiveUser();
 
     if (!activeUser) {
-      navigate("/signup");
+      navigate("/login");
     }
   }, [navigate]);
 

@@ -1,21 +1,35 @@
-<<<<<<< HEAD
-# product-store
-Product Store Web Application with React JS
-=======
-# React + Vite
+# Product Store Project - ShopNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed by Wakabi Brian
 
-Currently, two official plugins are available:
+# Project Details:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Create a Header and Footer
 
-## React Compiler
+1. A user can see a header with navigation links (Login, Signup, Products).
+2. A user, can see a footer with basic information (e.g., copyright)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Authentication (Signup)
 
-## Expanding the ESLint configuration
+a. A new user, can fill out a signup form with my fi rst name, last name, phone number, email, password, and confi rm password to register for the store.
+b. A new user, signup details saved in local storage.
+c. A new user, can see a validation error if password and confi rm password do not match.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> f35f4b4 (First Commit)
+## Authentication (Login)
+
+a. A registered user,can log in using email and password so that he can access the products page.
+b. A user login details can be validated against the data stored in local storage.
+c. A user, can be redirected to the products page after a successful login.
+
+## Access Control
+
+a. As a guest user, can be redirected to the login page if trying to access the products page without logging in
+
+## Products Page
+
+a. A logged-in user,can view a list of products where each product has a name, image, description, price, and category.
+b. A logged-in user, can filter the products by category
+
+## Navigation
+
+a. A user, can navigate between Login, Signup, and Products pages using the header links
