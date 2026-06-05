@@ -33,3 +33,7 @@ b. A logged-in user, can filter the products by category
 ## Navigation
 
 a. A user, can navigate between Login, Signup, and Products pages using the header links
+
+# Project Link
+
+https://product-store-react-project.netlify.app/
